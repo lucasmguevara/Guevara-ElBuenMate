@@ -18,7 +18,7 @@
 ## Paleta de colores
 ### #ffffff
 ### #313131
-### #70c745
+### #6F9B4F
 
 ## Logo
 ![Logo solo](logo_solo.png)
