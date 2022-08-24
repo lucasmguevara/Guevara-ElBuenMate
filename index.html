@@ -15,38 +15,38 @@
 </head>
 
 <body>
-    <section id="menu" class="menu-section">
+
+
+    <header id="menu" class="header">
         <div class="container">
-            <nav class="main-menu">
-                <a href="index.html" class="nav-logo"><img src="images/logo_menu.png" alt=""></a>
 
-                <div class="nav-menu">
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="tienda.html">Tienda</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
+            <a href="index.html" class="logo"><img src="images/logo_menu.png" alt=""></a>
 
-                <div class="nav-menu nav-login">
-                    <ul>
-                        <li><a href="index.html"><i class="fa-solid fa-user pr-5"></i> Login</a></li>
-                    </ul>
-                </div>
+            <!-- Hamburger icon -->
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-user pr-5"></i> Login</a></li>
+                </ul>
             </nav>
 
 
+
         </div>
-    </section>
+    </header>
 
     <section id="banner" class="banner-section">
         <img src="./images/banner_1.png">
     </section>
 
-    <section id="about-us" class="bg-gray section-padding-50">
+    <section id="about-us" class="bg-gray section-padding-1">
         <div class="container">
             <div class="section-heading text-center">
                 <h2>SOBRE NOSOTROS</h2>
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section id="our-services" class="bg-white section-padding-50">
+    <section id="our-services" class="bg-white section-padding-1">
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Nuestros Servicios</h2>
@@ -63,46 +63,46 @@
             </div>
 
             <div class="services">
-                <div class="description-services mb-100">
-                    <div class="item-service d-flex align-items-center">
-                        <div class=" service-icon mr-30 ">
+                <div class="description-services">
+                    <div class="item-service align-items-center">
+                        <div class=" service-icon">
                             <img src="images/mate_icon.png" alt=" ">
                         </div>
 
-                        <div class="service-description ">
+                        <div class="description ">
                             <h2>Mates</h2>
                             <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                         </div>
                     </div>
 
-                    <div class="item-service d-flex align-items-center">
-                        <div class=" service-icon mr-30 ">
+                    <div class="item-service align-items-center">
+                        <div class="service-icon">
                             <img src="images/termo_icon.png" alt=" ">
                         </div>
 
-                        <div class="service-description ">
-                            <h2>Termos y accesorios</h2>
+                        <div class="description ">
+                            <h2>Termos</h2>
                             <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                         </div>
                     </div>
 
-                    <div class="item-service d-flex align-items-center">
-                        <div class=" service-icon mr-30 ">
+                    <div class="item-service align-items-center">
+                        <div class=" service-icon">
                             <img src="images/rama_icon.png" alt=" ">
                         </div>
 
-                        <div class="service-description ">
+                        <div class="description ">
                             <h2>Yerba Mate</h2>
                             <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                         </div>
                     </div>
 
-                    <div class="item-service d-flex align-items-center">
-                        <div class=" service-icon mr-30 ">
+                    <div class="item-service align-items-center">
+                        <div class=" service-icon">
                             <img src="images/articulo_icon.png" alt=" ">
                         </div>
 
-                        <div class="service-description ">
+                        <div class="description ">
                             <h2>Blog Matero</h2>
                             <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
                         </div>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section id="news" class="bg-gray section-padding-50">
+    <section id="news" class="bg-gray section-padding-1">
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Novedades</h2>
@@ -131,7 +131,7 @@
                             <a href="#">Oferta</a>
                         </div>
                     </div>
-                    <div class="product-info mt-15 text-center">
+                    <div class="product-info text-center">
                         <a href="#">
                             <p>Termo</p>
                         </a>
@@ -143,7 +143,7 @@
                     <div class="product-img">
                         <a href="#"><img src="images/product_2.png" alt=""></a>
                     </div>
-                    <div class="product-info mt-15 text-center">
+                    <div class="product-info text-center">
                         <a href="#">
                             <p>Yerba Mate Taragüi</p>
                         </a>
@@ -155,7 +155,7 @@
                     <div class="product-img">
                         <a href="#"><img src="images/product_3.png" alt=""></a>
                     </div>
-                    <div class="product-info mt-15 text-center">
+                    <div class="product-info text-center">
                         <a href="#">
                             <p>Mate Camionero</p>
                         </a>
@@ -167,7 +167,7 @@
                     <div class="product-img">
                         <a href="#"><img src="images/product_4.png" alt=""></a>
                     </div>
-                    <div class="product-info mt-15 text-center">
+                    <div class="product-info text-center">
                         <a href="#">
                             <p>Bombilla Pico de Loro</p>
                         </a>
@@ -193,9 +193,7 @@
                 <div class="row">
                     <div class="width-100 d-flex">
                         <div class="footer-info">
-                            <div class="mb-30">
-                                <a href="#"><img src="images/logo_menu.png" alt="logo" width="200"></a>
-                            </div>
+                            <a href="#"><img src="images/logo_menu.png" alt="logo" width="200"></a>
                             <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
                             <div class="social-media">
                                 <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
@@ -225,7 +223,7 @@
                                 <h5 class="title">Novedades</h5>
                             </div>
 
-                            <div class="news d-flex align-items-center">
+                            <div class="news d-flex">
                                 <div class="new-product-img">
                                     <a href="#"><img src="Images/product_mini_1.png" alt="" width="70"></a>
                                 </div>
@@ -235,7 +233,7 @@
                                 </div>
                             </div>
 
-                            <div class="news d-flex align-items-center">
+                            <div class="news d-flex">
                                 <div class="new-product-img">
                                     <a href="#"><img src="Images/product_mini_3.png" alt="" width="70"></a>
                                 </div>
